@@ -3,4 +3,17 @@
   <groupId>com.nick.admin</groupId>
   <artifactId>nick-admin</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-webmvc</artifactId>
+		<version>4.3.9.RELEASE</version>
+	</dependency>
+</dependencies>
+  
+  
+  
+  
+  
 </project>
