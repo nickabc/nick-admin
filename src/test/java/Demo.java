@@ -18,8 +18,6 @@ public class Demo {
 			System.out.println(list);//[1,2,4,3]
 			
 			//第一次提交
-			
-			//第二次提交
 
 	}
 
