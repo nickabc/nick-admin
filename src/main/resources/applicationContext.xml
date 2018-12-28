@@ -24,7 +24,6 @@
        http://www.springframework.org/schema/data/jpa/spring-jpa-1.3.xsd
        http://www.springframework.org/schema/context
        http://www.springframework.org/schema/context/spring-context-4.3.xsd" >
-       
               
        <!-- 将Controller这个Bean对象交给Spring管理 -->
        <bean id="helloController" class="com.nick.sys.controller.HelloController">
@@ -44,6 +43,5 @@
        		 <property name="prefix" value="/WEB-INF/pages/"/><!-- 前缀 -->
             <property name="suffix" value=".jsp"/><!-- 后缀 -->
        </bean>
-       
        
 </beans>

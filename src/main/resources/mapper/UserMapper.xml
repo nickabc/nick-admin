@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.UserDao"><!-- 接口的类全名 -->
+
+	<insert id="insertUser" parameterType="pojo.User">
+		insert into user
+		(id,username,password)
+		values
+		(null,#{username},#{password})
+	</insert>
+	
+	<delete id="deleteUser" parameterType="int">
+		delete from user 
+		where id = #{id}
+	</delete>
+	
+	<update id="updateUser" parameterType="pojo.User">
+		update user
+		set username=#{username},password=#{password}
+		where id=#{id}
+	</update>
+	
+	<select id="queryUsers" resultType="pojo.User">
+		select * from user
+	</select>
+	
+</mapper>
